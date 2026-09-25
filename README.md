@@ -15,13 +15,25 @@ versioni e le propone in Bacheca → Aggiornamenti.
 
 ## Pubblicazione
 
-Dal server ticinoweb04:
+Si pubblica **su GitHub**, da qualsiasi macchina con accesso git (SSH) a
+questo repo: non serve un token personale né un server particolare.
 
 ```bash
-/var/www/webroot/scripts/release-to-github.sh theme  ticinoweb-ai-theme
-/var/www/webroot/scripts/release-to-github.sh child  <child-slug>
-/var/www/webroot/scripts/release-to-github.sh plugin <plugin-slug>
+cp <slug>-<versione>.zip <slug>-<versione>.md incoming/   # .md = changelog, opzionale
+git add incoming && git commit -m "release: <slug> <versione>"
+git tag <slug>-v<versione>
+git push origin main <slug>-v<versione>
 ```
+
+Al push del tag il workflow `.github/workflows/release-from-tag.yml` (GitHub
+Actions, con il token interno del repo) controlla che lo zip abbia la cartella
+`<slug>/` alla radice e crea la release: titolo = tag, asset = lo zip, corpo =
+il `.md`. Se la release esiste già non fa nulla. Lo stato si segue nella
+scheda **Actions** del repo.
+
+Prima di pubblicare, nel repo sorgente: bump della versione, changelog,
+commit e push. Lo zip si costruisce dal sorgente escludendo gli artefatti di
+sviluppo (`rsync-exclude.txt`: niente `*.md`, test, `node_modules`…).
 
 ## Installazione manuale
 
