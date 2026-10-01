@@ -1,0 +1,3 @@
+- Prima release pubblica del child theme Ferrazzini Advisory & Tax.
+- Include le pagine Home, Servizi, Chi siamo e Contatti con contenuti gestibili dal CMS.
+- Comprende immagini responsive, font locali, animazioni, Privacy core/parent e protezioni del modulo di contatto.

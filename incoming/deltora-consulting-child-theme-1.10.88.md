@@ -1,0 +1,3 @@
+- Allinea la release pubblica alla versione 1.10.88 attiva nel WordPress Multisite.
+- Include i template e gli asset aggiornati per Home, Servizi, Chi siamo, Contatti, Privacy e configuratore.
+- Consolida contenuti CMS, navigazione responsive, animazioni e integrazioni del child theme senza modificare il parent.
