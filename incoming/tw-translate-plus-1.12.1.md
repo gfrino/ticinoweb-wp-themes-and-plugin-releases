@@ -1,0 +1,1 @@
+- **ux(lingue)**: la barra di avanzamento mostra solo la percentuale dei testi tradotti (es. 1.343 su 11.761 → 11%), non più il minimo fra testi e pagine complete, che restava all'1–2% finché quasi ogni pagina non era finita. 100% solo quando nulla è in attesa o in errore. Tolte anche due query pesanti per lingua dal tab Lingue.
