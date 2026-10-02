@@ -1,0 +1,2 @@
+- **ux(selettore)**: con meno di due lingue pubblicate lo shortcode mostra agli amministratori un avviso («nessuna lingua pubblicata: spunta Pubblicata in tW Translate → Lingue») invece di sparire senza spiegazione; i visitatori continuano a non vedere nulla.
+- **perf(pagina)**: una pagina tradotta con testi appena scoperti (ancora in traduzione) non viene messa nella cache di LiteSpeed, così i visitatori successivi ricevono i testi tradotti appena pronti invece della versione parzialmente italiana fino al prossimo svuotamento della cache.
