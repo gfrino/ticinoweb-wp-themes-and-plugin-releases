@@ -1,0 +1,15 @@
+- fix(tw-translate-plus): short description whitespace, WPML variation descriptions v1.19.4
+- fix(tw-translate-plus): never redirect LiteSpeed ESI sub-requests v1.19.3
+- feat(tw-translate-plus): WPML import of visible custom field values v1.19.2
+- fix(tw-translate-plus): detect JetEngine lazy listing requests v1.19.1
+- feat(tw-translate-plus): translate HTML fragments in front-end AJAX responses (JetEngine, Woo) v1.19.0
+- fix(tw-translate-plus): original slug for trashed WPML copies v1.18.3
+- fix(tw-translate-plus): never queue search/feed/404 page texts v1.18.2
+- fix(tw-translate-plus): entity-insensitive page text lookup v1.18.1
+- feat(tw-translate-plus): translate WooCommerce fee names; texturized page texts in WPML import; --include-trashed v1.18.0
+- feat(tw-translate-plus): switcher labels attribute v1.17.3
+- fix(tw-translate-plus): texturized lookup also for single_post_title v1.17.2
+- fix(tw-translate-plus): WPML import uses whole texts, texturized titles, clean queue; names switcher + order v1.17.1
+- feat(tw-translate-plus): WPML importer, translated URLs + 301, Elementor links, AJAX language v1.17.0
+- fix(tw-translate-plus): admin hint when no language is published, no page cache while translations are pending v1.16.3
+- fix(tw-translate-plus): translate product titles, protect site name, normalized echo repair, worker liveness v1.16.2
