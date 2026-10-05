@@ -1,0 +1,15 @@
+- fix(tw-translate-plus): WPML import uses whole texts, texturized titles, clean queue; names switcher + order v1.17.1
+- feat(tw-translate-plus): WPML importer, translated URLs + 301, Elementor links, AJAX language v1.17.0
+- fix(tw-translate-plus): admin hint when no language is published, no page cache while translations are pending v1.16.3
+- fix(tw-translate-plus): translate product titles, protect site name, normalized echo repair, worker liveness v1.16.2
+- fix(tw-translate-plus): worker restart on stale hint, accept confirmed-unchanged texts, session page fetch, rounded switcher styles v1.16.1
+- feat(tw-translate-plus): page-level HTML translation of everything visible, per-variant switcher previews v1.16.0
+- feat(tw-translate-plus): [tw_language_switcher] shortcode with bundled SVG flags v1.15.0
+- fix(tw-translate-plus): reject echoed translations, gpt-oss-120b, security/SEO/perf review fixes v1.14.0
+- perf(tw-translate-plus): parallel engine requests, fastest OpenRouter provider v1.13.0
+- fix(tw-translate-plus): browser autofill no longer overwrites API keys v1.12.2
+- fix(tw-translate-plus): progress bar shows only the share of translated texts v1.12.1
+- feat(tw-translate-plus): editor translation box + Traduci adesso, hard run deadline v1.12.0
+- feat(tw-translate-plus): translation memory, self-healing errors, simpler API page v1.11.0
+- feat(tw-translate-plus): self-driven background worker, gpt-oss-20b default engine v1.10.0
+- feat(tw-translate-plus): automatic indexing, 45s queue runs, OpenAI-compatible engine v1.9.1
