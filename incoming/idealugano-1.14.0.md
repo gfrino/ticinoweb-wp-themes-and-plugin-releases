@@ -1,0 +1,15 @@
+- chore(espressocoppola, idealugano): add 1200x900 theme covers (screenshot.png)
+- feat(idealugano): FAQ editable in Bacheca → FAQ via the parent system v1.14.0
+- style(idealugano): restyle parent cookie banner to the site look, smaller footprint (1.13.3)
+- fix(idealugano): MHZ shown as rails/systems supplier only, gallery captions corrected (1.13.2)
+- fix(idealugano): service area is all Switzerland and abroad, accents and Tréca spelling (1.13.1)
+- feat(idealugano): service landing pages for Google Ads, WP primary menu with dropdown, partner photos (1.13.0)
+- feat(ticinoweb-ai-theme): GitHub release updater, generic contact form handler, admin-only sensitive settings v3.10.0
+- feat(idealugano): security, SEO and performance hardening v1.11.0
+- feat(idealugano): delegate on-page SEO to tW SEO, enrich LocalBusiness schema via filter v1.10.0
+- feat(maps): integrate official Google Maps short link and coordinates (v1.9.99)
+- fix(maps): update Google Maps embed and links to exact address Via alla Gerra 9, Stabile Vallone, Piano Superiore, 6930 Bedano (v1.9.98)
+- fix(motion): preserve GSAP animations and ScrollTrigger on browser back navigation via BFCache (v1.9.97)
+- feat(seed): add robust content auto-seeder and template interceptor for zero-config live deployment (v1.9.96)
+- feat(faq): create dedicated SEO/AEO FAQ page, Schema.org FAQPage markup, and footer link (v1.9.95)
+- feat(brands): remove link field completely from admin backend (v1.9.94)
