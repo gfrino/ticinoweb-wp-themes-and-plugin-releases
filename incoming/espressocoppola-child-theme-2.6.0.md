@@ -1,0 +1,15 @@
+- chore(espressocoppola, idealugano): add 1200x900 theme covers (screenshot.png)
+- feat(espressocoppola): FAQ on the parent FAQ system v2.6.0
+- Chore(espressocoppola): rilascio v2.5.6 con documentazione changelog e sync
+- Fix(espressocoppola): risolto taglio maschera logo con asset PNG trasparente e proporzioni bilanciate (v2.5.5)
+- Raffinamento design e proporzioni mini-header Espresso Coppola (v2.5.4)
+- Aggiunta icona account nell'header e adattamento layout pagina Il mio account (v2.5.3)
+- chore(espressocoppola): bump version to 2.5.2 e audit pre-release per pacchetto zip
+- fix(espressocoppola): aumento padding inferiore sotto i selettori di quantita nel carrello v2.5.1
+- fix(espressocoppola): immagini cassa 100% cover, rimozione searchbar adminbar e aumento padding carrello v2.5.0
+- fix(espressocoppola): ampliamento box cassa a 1440px, immagini cover e spaziatura campi a 60px v2.4.9
+- fix(espressocoppola): risoluzione padding celle carrello e blocco collasso colonna online v2.4.8
+- fix(espressocoppola): perfezionamento layout cassa, immagini quadrate centrate e spazi armoniosi v2.4.7
+- feat(espressocoppola): restyling bespoke pagina cassa (checkout) v2.4.6
+- perf(espressocoppola): ottimizzazione fluidità 60fps GPU ed eliminazione scatti v2.4.5
+- feat(espressocoppola): pulsante verde su hover e conferma aggiunta carrello v2.4.4
