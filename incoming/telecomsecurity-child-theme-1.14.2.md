@@ -1,0 +1,15 @@
+- fix: register Telecom Security service FAQ schema
+- fix: keep Telecom Security service titles within mobile viewport
+- feat: update Telecom Security contacts and service content support
+- feat: add Telenews feature, system preloader, hero video assets, and supporting test scripts
+- fix: align footer with site container
+- feat: rebuild Telecom Security contact page
+- docs: plan Telecom Security contact page implementation
+- docs: define Telecom Security contact page architecture
+- feat: add partners template and mobile header testing tools
+- Redesign dynamic about page
+- feat(telecomsecurity): organize service editor into tabs
+- docs(telecomsecurity): consolidate project documentation
+- Redesign compact dynamic service pages
+- feat(telecomsecurity): complete dynamic service pages
+- feat: add new theme components, admin configurations, and frontend assets
