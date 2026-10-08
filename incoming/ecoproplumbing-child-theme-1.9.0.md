@@ -1,0 +1,5 @@
+- **Feature**: A hand-written **"Click here!"** callout with a curved arrow now pops out of the floating booking button (the little jumping man), so visitors understand it is clickable and not just a decorative mascot. It springs out from the button 1.2s after load, then nudges toward it in a slow loop.
+- **Detail**: It is a sibling of the button, not a child, because the button clips with `overflow: hidden` to stay round. `pointer-events: none`, so it never blocks clicks on the content underneath; `aria-hidden`, since the button already has its accessible name. A white halo keeps it legible over photos as well as on the light background. Static (no animation) under `prefers-reduced-motion`.
+- **Font**: Caveat 700 from Google Fonts, requested with `text=` so only the glyphs of the label are downloaded (a few KB). The label goes through gettext (`ecoproplumbing_cta_callout_text()`), and the font subset follows the translated string.
+- **Chore**: Added the theme cover `screenshot.png` (1200×900, official logo on the theme's light palette), which the release script now requires.
+
