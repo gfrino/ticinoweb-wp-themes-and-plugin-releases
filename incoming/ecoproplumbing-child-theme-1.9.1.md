@@ -1,0 +1,2 @@
+- **Fix**: The "Click here!" callout no longer shows while the cookie banner is open. On phones the banner is full-width and semi-transparent, so the callout showed through it behind "Decline" and "Customize" — two prompts on top of each other. It is now hidden while `#tw-cookie-banner.show` exists and pops out as soon as the visitor answers: removing `animation: none` restarts the pop-in from the beginning. Uses `:has()`; in a browser without it, the callout simply behaves as in 1.9.0.
+
