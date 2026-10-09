@@ -1,0 +1,2 @@
+- Pagina Programmi scolastici: nuova vista «Per indirizzo» (predefinita) con il piano di studi di ogni indirizzo — Classico, Artistico, Letterario, Linguistico, Musicale, Scientifico, Economico, Sportivo — ore settimanali per classe, materie per tutti e di istituto, opzione complementare di IV, matematica superiore, corsi linguistici facoltativi e possibili passaggi. Dati dal foglio «Indirizzi liceo diocesano»; ogni numero rimanda al programma della materia.
+
