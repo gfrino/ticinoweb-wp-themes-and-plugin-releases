@@ -1,0 +1,15 @@
+- feat(campaigns): import campaigns from MailPoet as history and drafts, v1.22.0
+- feat(builder): text block font size, v1.21.0
+- fix(builder): inspector fields overflow, recent color swatches, v1.20.1
+- feat(builder): text align buttons, drop animation fix, icon, curated description and banner, v1.20.0
+- feat(footer): background image (cover) and Background panel, v1.19.1
+- feat(wp-news): resend confirmation, WPML + tW Translate support, email logo v1.19.0
+- fix(wp-news): email links broken by SendGrid Google Analytics tracking v1.18.1
+- feat(wp-news): WooCommerce checkout opt-in, built-in anti-spam, unstyled form v1.18.0
+- fix(wp-news): list delete/rename via admin-post, no duplicate lists on MailPoet re-import v1.17.1
+- feat(wp-news): signup form builder with live preview v1.17.0
+- feat(wp-news): updates via the ticinoWEB releases repo v1.16.0
+- feat(wp-news): usable signup form shortcode for a chosen mailing list v1.16.0
+- chore(wp-news): remove stray iCloud duplicate build files
+- feat: initialize Configuratore Pasticcini Chez Halima plugin with product selection assets and configurator shortcode
+- feat: implement FormDiscoveryInterface in WPForms adapter to support schema discovery and field mapping.
