@@ -1,0 +1,15 @@
+- feat(footer): background image (cover) and Background panel, v1.19.1
+- feat(wp-news): resend confirmation, WPML + tW Translate support, email logo v1.19.0
+- fix(wp-news): email links broken by SendGrid Google Analytics tracking v1.18.1
+- feat(wp-news): WooCommerce checkout opt-in, built-in anti-spam, unstyled form v1.18.0
+- fix(wp-news): list delete/rename via admin-post, no duplicate lists on MailPoet re-import v1.17.1
+- feat(wp-news): signup form builder with live preview v1.17.0
+- feat(wp-news): updates via the ticinoWEB releases repo v1.16.0
+- feat(wp-news): usable signup form shortcode for a chosen mailing list v1.16.0
+- chore(wp-news): remove stray iCloud duplicate build files
+- feat: initialize Configuratore Pasticcini Chez Halima plugin with product selection assets and configurator shortcode
+- feat: implement FormDiscoveryInterface in WPForms adapter to support schema discovery and field mapping.
+- chore(wp-news): exclude .rsync-filter from live deploys
+- feat(wp-news): 1.15.0 sending engine reliability (batch chaining, 90 s budget, transport-error handling, shared cURL)
+- chore(wp-news): keep src/ out of live deploys via .rsync-filter (-FF)
+- fix(wp-news): 1.14.1 render email HTML with renderToStaticMarkup (Safari byte-stream error)
