@@ -1,0 +1,3 @@
+- Pagine interne ridisegnate: header trasparente come in home, fascia con le foto d'epoca della testata, colonna «in questa sezione» ricavata dal menu, contenuti con titoli e testi più sobri e leggibili, tabelle e citazioni curate.
+- Configuratore interattivo dei programmi scolastici, shortcode [ld_programmi]: per classe (classe → materie fondamentali / opzione specifica / opzione complementare), per materia (con ricerca) e tabella materia × classe come prima. Il testo completo di ogni programma si apre sotto la scelta, con i tab per seguire la stessa materia negli anni e link diretto a ogni programma. Usa i programmi già inseriti: nessun dato nuovo.
+
