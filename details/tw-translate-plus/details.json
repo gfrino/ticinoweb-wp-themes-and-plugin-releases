@@ -1,0 +1,24 @@
+{
+  "description": "**tW Translate Plus** rende multilingua un sito WordPress senza duplicare nulla: una sola pagina, un solo prodotto, un solo ordine. Il plugin conserva per ogni testo l'originale, la traduzione automatica e l'eventuale correzione manuale, e serve ogni lingua al suo indirizzo (`/en/`, `/de/`…), indicizzabile da Google.\n\n## Cosa traduce\n- **Contenuti**: titoli, testi, estratti, menu, categorie, descrizioni SEO, prodotti WooCommerce.\n- **Tutto quello che il tema stampa**: etichette dei template, sezioni dei page builder, testi dei plugin, attributi `alt`, `title`, segnaposto dei campi.\n- **Testi passati al JavaScript** (novità 1.20): configuratori, moduli e componenti che ricevono i loro testi con `wp_localize_script` vengono tradotti senza toccare id, indirizzi e dati tecnici.\n\n## Copertura reale, non solo una percentuale\nLa barra delle lingue conta i testi che il plugin conosce. Il controllo **Copertura reale delle pagine** (scheda Stato) apre ogni pagina nella lingua principale e in ogni lingua attiva, lascia lavorare gli script e confronta ciò che il visitatore legge davvero. I testi rimasti in lingua originale vengono elencati pagina per pagina; marchi e nomi propri si segnano con un clic come «uguali in tutte le lingue».\n\n## Motore a scelta, costi sotto controllo\n- **Google Cloud Translation v3** oppure **OpenAI**, con la chiave del sito: ogni cliente paga solo le proprie traduzioni.\n- Limite giornaliero di caratteri, coda in background, nessuna chiamata al motore durante le visite.\n- **Memoria di traduzione**: un testo identico tradotto una volta non si paga di nuovo.\n- **Glossario per sito**: marchi da non tradurre e terminologia sempre coerente.\n\n## Pensato per chi gestisce il sito\n- Correzioni manuali dalla scheda Traduzioni: restano anche quando il motore ritraduce.\n- Lingue attivabili in anteprima prima di pubblicarle nel selettore, nell'hreflang e nella sitemap.\n- SEO multilingua completa: hreflang reciproci, `x-default`, `og:locale`, sitemap per lingua, indirizzi tradotti.\n- Compatibile con LiteSpeed Cache, WooCommerce, Elementor, multisite; migrazione guidata da WPML.",
+  "faq": "## Le pagine vengono duplicate per ogni lingua?\nNo. Esiste un solo oggetto WordPress: prezzi, stock, immagini e ordini sono gli stessi in tutte le lingue.\n\n## La barra segna 100% ma vedo ancora testi in italiano. Perché?\nLa barra conta i testi che il plugin ha trovato. Usa **Stato → Copertura reale delle pagine**: elenca i testi rimasti in lingua originale. Se un testo non compare mai nella scheda Traduzioni, è scritto nel codice del tema o di un plugin e va passato da `ticinoweb_frontend_text()`.\n\n## Quanto costa tradurre?\nDipende dal motore e dal volume: ogni sito usa la propria chiave e ha un limite giornaliero di caratteri. I testi già tradotti vengono riusati senza costi.\n\n## Posso correggere una traduzione?\nSì, dalla scheda Traduzioni. La correzione manuale ha sempre la precedenza e non viene sovrascritta dal motore.",
+  "banner": "banner-772x250.png",
+  "banner_2x": "banner-1544x500.png",
+  "screenshots": [
+    {
+      "src": "screenshot-1.png",
+      "caption": "**Lingue**: attivi una lingua con un clic, la pubblichi quando è pronta. Sotto la barra, la percentuale verificata sulle pagine reali."
+    },
+    {
+      "src": "screenshot-2.png",
+      "caption": "**Copertura reale delle pagine**: ogni pagina viene aperta in tutte le lingue e confrontata. Restano in elenco solo i testi davvero dimenticati."
+    },
+    {
+      "src": "screenshot-3.png",
+      "caption": "**Traduzioni**: cerchi un testo, vedi originale e traduzione, correggi a mano. La correzione non viene mai sovrascritta."
+    },
+    {
+      "src": "screenshot-4.png",
+      "caption": "**Anche i testi del JavaScript**: un configuratore interattivo tradotto in inglese, senza toccarne la logica."
+    }
+  ]
+}
