@@ -1,0 +1,16 @@
+{
+  "description": "**Star CloudPRNT for WooCommerce** stampa ogni ordine del negozio sulla stampante termica Star Micronics della cucina o del banco, appena arriva, senza computer acceso e senza driver. La stampante interroga il sito con il protocollo CloudPRNT: basta collegarla a Internet.\n\n## Cosa esce sullo scontrino\n- **Ordine e cliente**: numero, data, nome, telefono e indirizzo di consegna; per i ritiri la data e l'orario.\n- **Piatti e prodotti** in grande, con varianti (impasto, taglia…) e supplementi sotto ogni riga, quantità e prezzi.\n- **Menu IBSA Menu**: un blocco per ogni menu, con titolo, una riga per portata col piatto da consegnare, le posate e il prezzo del menu.\n- **Totali** con coupon, sconti, spese e contributi.\n- **QR con la mappa**: il fattorino lo inquadra e Google Maps apre l'indirizzo di consegna.\n- **Campi del checkout personalizzati** (orario richiesto, note…) senza configurare nulla.\n\n## Pensato per chi lavora in cucina\n- Più copie dello stesso scontrino, avviso acustico all'arrivo dell'ordine, logo in alto e in basso.\n- **Una seconda stampante** (per esempio bar e cucina) e una stampante riservata a un solo sito: non si mischiano gli ordini dei clienti.\n- **Rapporto Z**: il riepilogo vendite di fine giornata si stampa con un clic.\n- Stato della stampante e registro delle stampe nella pagina delle impostazioni, per capire subito se è collegata.\n- **Call Center** (facoltativo): schermata per inserire gli ordini telefonici direttamente dal gestionale.\n\n## Dove si imposta\nImpostazioni → **Star CloudPRNT**: scegli la stampante, il formato dello scontrino, le copie e cosa stampare. Gli aggiornamenti arrivano da Bacheca → Aggiornamenti, come per ogni altro plugin.",
+  "faq": "## Serve un computer acceso in negozio?\nNo. La stampante si collega al router e chiede al sito se ci sono ordini nuovi. Se è spenta, l'ordine resta in coda e si stampa appena torna online.\n\n## Quali stampanti funzionano?\nLe stampanti Star Micronics con funzione CloudPRNT. Quando la stampante è collegata, compare nelle impostazioni del plugin e si sceglie da lì.\n\n## Cosa cambia con IBSA Menu?\nCon IBSA Menu 2.3 o successivo lo scontrino mostra il menu composto dal cliente, portata per portata, e le posate. Senza IBSA Menu lo scontrino resta quello di sempre.\n\n## Come cambio cosa viene stampato?\nDa Impostazioni → Star CloudPRNT: copie, logo, codifica dei caratteri, avviso acustico e campi dell'ordine da stampare.\n\n## L'aggiornamento cancella le mie impostazioni?\nNo. Stampante, copie e logo sono salvati nel database e restano. Si azzera solo il file del registro, che si rigenera da solo.",
+  "banner": "banner-772x250.png",
+  "banner_2x": "banner-1544x500.png",
+  "screenshots": [
+    {
+      "src": "screenshot-1.png",
+      "caption": "Un menu IBSA: titolo, **piatto da consegnare per ogni portata**, posate e prezzo."
+    },
+    {
+      "src": "screenshot-2.png",
+      "caption": "Un ordine normale: prodotti con varianti e supplementi, totale e orario di consegna."
+    }
+  ]
+}
