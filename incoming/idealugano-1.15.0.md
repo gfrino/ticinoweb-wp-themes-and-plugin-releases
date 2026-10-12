@@ -1,0 +1,1 @@
+- Pagine servizio: il modulo di richiesta permette di allegare fino a 5 foto (JPG, PNG, WebP, HEIC), con anteprime e rimozione. Le foto vengono ridotte automaticamente prima dell'invio, allegate alla mail al titolare e non restano sul server.
