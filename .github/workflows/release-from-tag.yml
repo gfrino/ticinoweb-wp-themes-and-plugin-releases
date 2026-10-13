@@ -16,11 +16,17 @@ on:
 permissions:
   contents: write
 
+# Un solo run alla volta per tag: se lo stesso tag arriva due volte quasi
+# insieme, il secondo run aspetta il primo e trova la release gia' creata.
+concurrency:
+  group: release-${{ github.ref_name }}
+  cancel-in-progress: false
+
 jobs:
   release:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Crea la release con lo zip
         env:
@@ -52,7 +58,15 @@ jobs:
           fi
           [ -f "$NOTES" ] || echo "- Release ${VER}" > "$NOTES"
 
-          gh release create "$TAG" "$ZIP" \
+          if ! gh release create "$TAG" "$ZIP" \
             --title "$TAG" \
             --notes-file "$NOTES" \
-            --verify-tag
+            --verify-tag 2>err.log; then
+            cat err.log
+            # Creata nel frattempo da un altro run: non e' un errore.
+            if gh release view "$TAG" >/dev/null 2>&1; then
+              echo "La release $TAG e' stata creata da un altro run: niente da fare."
+              exit 0
+            fi
+            exit 1
+          fi
