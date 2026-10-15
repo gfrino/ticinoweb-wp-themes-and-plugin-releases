@@ -1,0 +1,3 @@
+- Prima versione: riproduzione in PHP del sito New Polo Design 360° (hero, direzione, 12 servizi con schede di dettaglio e gallerie, metodo, recensioni, FAQ, sede, invito finale, footer, newsletter).
+- Preventivo e recensioni inviati dal gestore form del parent (salvati in "Invii Ricevuti" e inviati per email); WhatsApp precompilato.
+- Contenuti dal pannello ticinoWEB CMS, Gallerie media, FAQ del parent e pannello "Contenuti New Polo".
