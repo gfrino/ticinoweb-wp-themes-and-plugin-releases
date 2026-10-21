@@ -1,0 +1,4 @@
+- Prima versione del child theme per Bar my Way (ArbedSmart Center, Arbedo).
+- Home: copertina, «Cosa serviamo» (servizi del CMS), «Chi siamo», orari con evidenziazione del giorno, recensioni Google, FAQ e «Dove siamo». Ogni blocco legge il CMS del parent e sparisce se il dato manca.
+- Contenuti di esempio scritti nel CMS alla prima attivazione (solo dove i campi sono vuoti): orari, servizi, chi siamo, indirizzo e una scheda FAQ.
+- Font di sistema, nessuna risorsa da terzi; menu con voci di ripiego sulle sezioni della home.
