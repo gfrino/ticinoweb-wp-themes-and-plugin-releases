@@ -1,0 +1,15 @@
+- idealugano 1.16.1: i fornitori dell'atelier nella pagina Marchi
+- fix(repo): ripristina di nuovo il versionamento di tutti i temi
+- feat(tenconi): nel mega menu ogni voce e' una scheda con fotografia
+- fix(repo): ripristina il versionamento di tutti i temi
+- samsweetlab 1.8.2: catalogo ingredienti pubblico, senza script del carrello
+- idealugano 1.15.0: foto allegate al modulo di richiesta delle pagine servizio
+- chore(espressocoppola, idealugano): add 1200x900 theme covers (screenshot.png)
+- feat(idealugano): FAQ editable in Bacheca → FAQ via the parent system v1.14.0
+- style(idealugano): restyle parent cookie banner to the site look, smaller footprint (1.13.3)
+- fix(idealugano): MHZ shown as rails/systems supplier only, gallery captions corrected (1.13.2)
+- fix(idealugano): service area is all Switzerland and abroad, accents and Tréca spelling (1.13.1)
+- feat(idealugano): service landing pages for Google Ads, WP primary menu with dropdown, partner photos (1.13.0)
+- feat(ticinoweb-ai-theme): GitHub release updater, generic contact form handler, admin-only sensitive settings v3.10.0
+- feat(idealugano): security, SEO and performance hardening v1.11.0
+- feat(idealugano): delegate on-page SEO to tW SEO, enrich LocalBusiness schema via filter v1.10.0
