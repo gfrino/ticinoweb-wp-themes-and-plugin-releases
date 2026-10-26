@@ -1,0 +1,15 @@
+- samswiss 1.20.1: titoli leggibili in Imballaggi e consumabili
+- samswiss 1.20.0: volantini gestibili dalla bacheca
+- samswiss 1.19.0: copertina del tema (logo SAM su sfondo del tema)
+- samswiss 1.19.0: volantini packaging sostenibile e linea Gastro
+- fix(repo): ripristina di nuovo il versionamento di tutti i temi
+- feat(tenconi): nel mega menu ogni voce e' una scheda con fotografia
+- fix(repo): ripristina il versionamento di tutti i temi
+- samsweetlab 1.8.2: catalogo ingredienti pubblico, senza script del carrello
+- feat: implement Casa dei Ponti child theme and expand Samswiss functionality with new pages, styling, and data helpers.
+- fix(maps): update Google Maps embed and links to exact address Via alla Gerra 9, Stabile Vallone, Piano Superiore, 6930 Bedano (v1.9.98)
+- feat: implement manual featured second-hand machine selection and add WhatsApp contact card to homepage technology grid
+- feat: implement theme content seeder and add support for gelateria filtering
+- feat: update Confezionamento Stretch page with comprehensive content and video showcase
+- feat: implement second-hand product seeder and add related image assets and updated content metadata
+- feat: add image assets for technologies and hero slides, update technology covers to theme paths, improve upload URL resolution, and redirect reserved area login to custom page.
