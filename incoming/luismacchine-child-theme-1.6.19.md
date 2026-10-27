@@ -1,0 +1,1 @@
+- luismacchine: aggiunge il child theme 1.6.19 (dal pacchetto sito del 27.10.2026)
