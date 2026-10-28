@@ -1,0 +1,7 @@
+{
+  "description": "**tW Software Store** mette in vendita da solo, nel negozio WooCommerce di ticinoWEB, ogni plugin WordPress che pubblichiamo.\n\n## Cosa fa\n- Alla prima release di un plugin crea il prodotto: nome, descrizione, immagine, file da scaricare e prezzo.\n- A ogni nuova versione aggiorna versione, novità e file: chi compra scarica sempre l'ultima.\n- Prezzo di default 199 CHF, licenza perpetua, nessuna scadenza dei download.\n- Ignora i temi e i plugin che escludi.\n\n## Dove si imposta\nWooCommerce → Software Store: prezzo, categoria, bozza o pubblicazione immediata, plugin da non vendere.",
+  "faq": "## I prezzi già impostati cambiano?\nNo, il prezzo predefinito vale solo per i nuovi prodotti.\n\n## Posso rivedere un prodotto prima che sia visibile?\nSì: di default i nuovi prodotti nascono in bozza.\n\n## Come escludo un plugin fatto su misura per un cliente?\nScrivi il suo nome tecnico nelle impostazioni, oppure aggiungi \"shop\": false al suo details.json.\n\n## Ogni quanto controlla le novità?\nOgni ora, e subito dopo ogni rilascio se il workflow GitHub è collegato.",
+  "banner": "banner-772x250.png",
+  "banner_2x": "banner-1544x500.png",
+  "screenshots": []
+}
