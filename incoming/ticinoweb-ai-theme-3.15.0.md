@@ -1,0 +1,3 @@
+- **Backend moderno, font**: tutto il backend usa **Inter** (variabile, ospitato nel tema in `assets/fonts/inter/`, licenza SIL OFL 1.1 in `OFL.txt`) al posto del font di sistema, con pesi più leggeri: testo e voci di menu a 400, pulsanti e voce attiva a 500, titoli a 600 (WordPress usa 600/bold quasi ovunque). Cifre allineate in tabelle e bacheca. Solo caratteri latini (48 KB, precaricati; 85 KB in più solo se servono lettere dell'Europa dell'est); campi codice, editor classico e icone restano invariati; l'editor a blocchi non è toccato.
+  - Motivo: richiesta di un font più moderno e più fine nel backend.
+
