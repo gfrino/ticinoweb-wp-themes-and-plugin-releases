@@ -1,0 +1,5 @@
+- **Backend moderno, font**: **Manrope** al posto di Inter (variabile, in `assets/fonts/manrope/`, licenza SIL OFL 1.1). Su Mac Inter è quasi identico al font di sistema e il cambio non si notava; Manrope è più sottile e riconoscibile, e pesa meno (25 KB per i caratteri latini, 15 KB per l'Europa dell'est solo se servono).
+- **Barra laterale**: più larga (200 px invece di 160) e blu scura con un mesh gradient di blu, azzurro e indaco, fisso mentre si scorre; sottomenu a comparsa blu, separatori più visibili. Solo da 961 px in su con il menu esteso: con il menu ridotto a icone e su telefono restano le misure di WordPress. Adattata anche l'intestazione fissa di WooCommerce.
+- **Menu**: la voce **ticinoWEB CMS** è sempre la seconda, subito sotto Bacheca (filtro `menu_order` e, per i siti con un menu personalizzato da Admin Menu Editor, riapplicato sul filtro `submenu_file` dopo di lui).
+  - Motivo: richiesta di un font visibilmente più moderno e fine e di una barra più ampia e d'impatto.
+
