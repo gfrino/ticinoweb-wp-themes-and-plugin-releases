@@ -1,0 +1,21 @@
+{
+  "shop": false,
+  "description": "**Autonec Showroom Lock** porta online lo showroom self-service e la promo di vendita.\n\n## Cosa fa\n- **Accesso allo showroom**: il visitatore scansiona il QR, compila il modulo e riceve il codice della porta via SMS e le istruzioni via e-mail. I codici cambiano per giorno e fascia oraria.\n- **Promo online** (novità 1.2): una pagina senza header né footer, pensata per il telefono, dove il cliente prenota l'acquisto dell'auto scelta e si assicura lo sconto. Riceve subito un'e-mail di conferma; voi ricevete la prenotazione per e-mail e la ritrovate in bacheca.\n- **Prenotazioni e visitatori in bacheca**, con esportazione CSV.\n\n## Dove si imposta\nBacheca → **Showroom Lock**: Email, Twilio SMS, Codici di Accesso, Visitatori, **Promo online** (pagina, sconto, logo, destinatari, testo dell'e-mail) e **Prenotazioni promo**.",
+  "faq": "## Come creo la pagina della promo?\nShowroom Lock → Promo online → **Crea la pagina della promo**. L'indirizzo che compare è quello da usare nel QR code.\n\n## Posso cambiare la percentuale di sconto?\nSì, in Promo online → Sconto e logo. Cambia ovunque: titolo, pulsante, e-mail.\n\n## Chi riceve le prenotazioni?\nGli indirizzi indicati in Promo online. Se il campo è vuoto, quelli della pagina Email di Showroom Lock.\n\n## Posso usare la pagina senza header e footer per altre pagine?\nSì: nella modifica di qualsiasi pagina scegli il modello «Pagina vuota (senza header e footer)».\n\n## Il modulo è protetto dallo spam?\nSì: campo trappola invisibile per i bot e limite di invii per indirizzo IP.",
+  "banner": "banner-772x250.png",
+  "banner_2x": "banner-1544x500.png",
+  "screenshots": [
+    {
+      "src": "screenshot-1.png",
+      "caption": "**Promo online sul telefono**: logo, titolo e fascia dello sconto, poi subito il modulo."
+    },
+    {
+      "src": "screenshot-2.png",
+      "caption": "**Dopo l'invio**: il cliente vede la conferma e riceve il riepilogo per e-mail."
+    },
+    {
+      "src": "screenshot-3.png",
+      "caption": "**Impostazioni della promo**: indirizzo per il QR code, sconto, logo e testo accanto al logo."
+    }
+  ]
+}
