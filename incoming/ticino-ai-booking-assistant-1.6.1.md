@@ -1,0 +1,15 @@
+- fix(ticino-ai-booking-assistant): annual reports are not expired documents v1.6.1
+- feat(ticino-ai-booking-assistant): set aside PDFs that are no longer current v1.6.0
+- feat(ticino-ai-booking-assistant): add every site PDF automatically, assistant logo v1.5.0
+- fix(ticino-ai-booking-assistant): read MacRoman PDFs on servers without the iconv MACINTOSH module v1.4.1
+- fix(ticino-ai-booking-assistant): reply in the visitor's language and cite the PDF v1.4.0
+- feat(ticino-ai-booking-assistant): PDF documents in the Knowledge Base v1.4.0
+- fix(ticino-ai-booking-assistant): retry without nonce on 403 rest_cookie_invalid_nonce v1.3.1
+- fix(ticino-ai-booking-assistant): resilient AI calls, short conversational answers, error log v1.3.0
+- feat(ticino-ai-booking-assistant): lead-generation mode, CPT indexing, configurable success message v1.2.0
+- refactor(ticino-ai-booking-assistant): sector-neutral plugin, Synergy data moved to its settings v1.1.0
+- feat(ticino-ai-booking-assistant): per-button actions and editable booking intro v1.0.22
+- feat(ticino-ai-booking-assistant): team from IL TEAM panel, configurable quick-reply buttons v1.0.21
+- feat(ticino-ai-booking-assistant): multicolor gradient SVG icon in the admin menu v1.0.20
+- chore(ticino-ai-booking-assistant): rename to 'AI WEB Agent', chat icon in admin menu v1.0.19
+- feat(ticino-ai-booking-assistant): selectable AI provider, Gemini or OpenAI v1.0.18
