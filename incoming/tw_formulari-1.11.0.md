@@ -1,0 +1,5 @@
+
+### Added
+- **«Tutti i metodi attivi» nel pagamento**: nella scheda Pagamento di un modulo, «Come si può pagare» ha ora l'opzione **Tutti i metodi attivi in TW Formulari → Pagamenti** (consigliata). Chi compila vede ogni metodo attivo (Stripe, bonifico, altri); un metodo aggiunto o acceso più tardi nella pagina Pagamenti compare da solo anche nei moduli, senza ritoccarli. Scegliere a mano resta possibile. I moduli esistenti non cambiano.
+- **reCAPTCHA del CMS ticinoWEB**: nella scheda Impostazioni → «Protezione dallo spam» c'è la casella **Verifica anti-spam reCAPTCHA (quella di ticinoWEB CMS)**. Usa le chiavi e la soglia già inserite in ticinoWEB CMS → reCAPTCHA (nessun dato da copiare): lo script di Google si carica solo nelle pagine con un modulo protetto, ogni invio porta un token nuovo e il server lo verifica prima di salvare (con la funzione del CMS, oppure direttamente se il tema non c'è). Senza chiavi la protezione non si applica e l'editor dice dove inserirle; gli altri antispam (campo trappola, tempo minimo, limite di invii) restano attivi.
+
