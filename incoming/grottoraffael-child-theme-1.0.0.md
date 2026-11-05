@@ -1,0 +1,3 @@
+- Prima versione: grottoraffael.ch rifatto senza Elementor sopra ticinoWEB CMS. Header con menu, tendina dei menù in PDF, selettore della lingua (tW Translate Plus) e pulsante «Buono Regalo»; footer a quattro colonne con note legali e bandiere; home, Il Grotto, Galleria, Banchetti, Eventi, Swiss Miniature, Contatto, Buono Regalo e negozio con le classi `gr-*`.
+- Gallerie del parent con foto a schermo intero; mappa di Google e video di YouTube solo al clic (nessuna richiesta a terzi prima del consenso); popup della home con date di inizio e fine.
+- Caratteri inclusi nel tema, niente Google Fonts né emoji da s.w.org.
