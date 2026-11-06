@@ -1,0 +1,2 @@
+- **Agenda**: al posto del riquadro di Google Calendar, l'elenco dei prossimi eventi con la grafica del sito (data, orario, luogo); cliccando un evento si apre sul posto la sua descrizione. Gli eventi arrivano dal feed iCal pubblico dello stesso calendario, letto dal server ogni 15 minuti (ricorrenze, date escluse e occorrenze modificate comprese). Il browser del visitatore non si collega più a Google: niente cookie di Google e niente link «Ulteriori dettagli», che apriva Google Calendar con l'account di chi guardava (il cliente vedeva così le proprie agende private).
+
