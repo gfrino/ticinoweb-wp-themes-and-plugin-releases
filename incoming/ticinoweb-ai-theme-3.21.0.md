@@ -1,0 +1,3 @@
+- **Promozioni con data di inizio e di scadenza** (ticinoWEB CMS → Promozioni → «Periodo della promozione»). Fuori dal periodo il popup, il banner e la sezione promozioni scompaiono da soli su tutti i siti; il giorno finale è incluso. Date facoltative: vuote = sempre visibile. Il pannello mostra se la promozione è programmata, attiva o scaduta.
+  - Come funziona: sul sito pubblico, fuori periodo, le opzioni `ticinoweb_promozioni_*` risultano vuote, quindi i child che mostrano la promozione «se c'è un titolo» la nascondono senza modifiche. Funzione `ticinoweb_promozioni_is_active()` per i child che vogliono controllarlo.
+
