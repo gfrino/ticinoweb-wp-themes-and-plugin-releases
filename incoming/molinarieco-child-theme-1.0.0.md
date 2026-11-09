@@ -1,0 +1,2 @@
+- Primo child theme Garage Molinari & Co. per il Multisite ticinoWEB.
+- Layout responsive con logo e immagini originali del sito.
