@@ -1,0 +1,3 @@
+- Pagina Buono Regalo rifatta come le altre pagine del sito: fascia con foto e titolo, poi a sinistra il testo (titolo in corsivo oro e titolo maiuscolo, cosa comprende il buono con le spunte, come chiedere informazioni) e a destra il modulo d'acquisto, sugli stessi bordi della pagina. Prima titolo e logo stavano su una fascia grigia e il modulo era centrato più in basso, con i bordi non allineati al testo. Da computer il testo resta in vista mentre si compila; da telefono sta sopra il modulo.
+- Il modulo del buono non forza più gli angoli vivi: il suo aspetto (angoli, colori, importo in grande) si regola nelle impostazioni del modulo in tW Formulari.
+
