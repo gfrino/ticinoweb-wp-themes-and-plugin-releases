@@ -1,0 +1,5 @@
+- Prima versione del child Amici di Bacco: home editoriale con vigneti, bottiglia reale e percorso immersivo verso l’acquisto.
+- CMS parent per apertura, storia, contatti, FAQ e galleria; controlli nativi per contenuti specifici, vini e cantine.
+- Recupero delle schede produttore e dei dati tecnici senza ACF; presentazione italiana senza cancellare traduzioni.
+- Catalogo WooCommerce con filtri GET, prezzi/varianti originali e flussi nativi di acquisto.
+- Scorrimento fluido desktop, movimento ridotto, telefono nativo, font locali e logo ufficiale.
