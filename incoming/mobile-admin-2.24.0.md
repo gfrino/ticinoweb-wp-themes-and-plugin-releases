@@ -1,0 +1,18 @@
+### Added
+- **Accesso app** (Gestione App → Accesso app): Mobile Admin può gestire da solo il login, la registrazione e la «password dimenticata» dei clienti nell'app, al posto del plugin Simple JWT Login. Risponde agli stessi indirizzi (`simple-jwt-login/v1/auth`, `auth/validate`, `auth/revoke`, `users`, `user/reset_password`) con gli stessi parametri, le stesse risposte e gli stessi codici di errore della versione 3.6.8 di Simple JWT Login, perché le app già installate sui telefoni non si possono cambiare. Chi ha già fatto l'accesso resta dentro: stessa chiave di firma, stessa durata, stesso elenco dei token revocati.
+- Un interruttore per sito, spento finché non lo si accende: con questo aggiornamento non cambia nulla su nessun sito. Accendendolo le impostazioni di Simple JWT Login vengono copiate in Mobile Admin, senza riscrivere nulla. Finché Simple JWT Login è attivo risponde ancora lui; appena viene disattivato Mobile Admin prende il suo posto da solo (e si rifà una copia fresca delle impostazioni in quel momento). Per tornare indietro basta riattivare Simple JWT Login. Non esistono mai due plugin sugli stessi indirizzi.
+- La pagina dice in chiaro a che punto è il sito (Spento, Pronto in attesa, Attivo, Nessuno risponde all'app), chiede al sito stesso chi sta rispondendo in quel momento e riassume cosa è impostato (login, chiave dell'app, registrazione, password dimenticata, durata dell'accesso) senza mostrare nessuna chiave. Un avviso rosso in bacheca segnala il caso in cui nessuno risponde all'app.
+- Per un sito nuovo, senza Simple JWT Login: «Prepara questo sito per l'app» crea le chiavi e le impostazioni (solo l'amministratore della rete).
+- Limite ai tentativi, che Simple JWT Login non aveva: dopo 10 password sbagliate in 15 minuti per lo stesso account l'accesso si ferma fino allo scadere dei 15 minuti; limiti anche su registrazioni, e-mail di reset e codici di reset sbagliati. La risposta è 429 con `Retry-After`. Soglie modificabili con il filtro `wpadr_jwt_limits`.
+
+### Security
+- `POST mobile-admin/v1/register-or-add` (registrazione dall'app su una rete di sedi) è più severa: un account che esiste già viene collegato alla sede solo se la richiesta porta la sua password attuale, e la sua password non viene mai cambiata da questa rotta; altrimenti la risposta è 409 «Esiste già un account…» (codice 38, che le app mostrano come «utente già esistente»). Vale anche qui il limite ai tentativi. **Aggiornamento consigliato su tutti i siti con un'app.**
+- Un nuovo account creato dall'app non riceve mai un ruolo che può lavorare in bacheca, qualunque cosa dicano le impostazioni: in quel caso diventa «Sottoscrittore».
+- La chiave dell'app è confrontata in tempo costante. Le risposte di accesso non finiscono mai nella cache di pagina (con Simple JWT Login un «token valido» poteva restare in cache anche dopo l'uscita). Nessuna chiave, password o token viene scritto in un log.
+
+### Changed
+- `register-or-add` legge chiavi dell'app, chiave di firma e ruolo dalle impostazioni di Mobile Admin quando ci sono, altrimenti da quelle di Simple JWT Login come prima: continua a funzionare anche dopo la rimozione di Simple JWT Login.
+
+### Not carried over
+- Funzioni di Simple JWT Login che nessuna app e nessuna Cloud Function usa, e che per questo non sono state riprodotte: accesso automatico da link (autologin), cancellazione dell'utente, rinnovo del token, login con Google, login con l'hash della password, dati extra nel token decisi dall'app, campi utente aggiuntivi alla registrazione, token accettato sulle altre rotte REST di WordPress («middleware»), hook per sviluppatori, token da cookie o sessione. Nella risposta di `auth/validate` il campo `user_activation_key` resta ma è sempre vuoto.
+
