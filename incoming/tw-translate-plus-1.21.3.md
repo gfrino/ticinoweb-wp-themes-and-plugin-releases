@@ -1,0 +1,15 @@
+- fix(tw-translate-plus): titoli SEOPress e nome del sito tradotti nelle lingue aggiuntive v1.21.3
+- fix(tw-translate-plus): niente 500 sulle lingue aggiuntive nei WordPress non multisite v1.21.2
+- fix(tw-translate-plus): le voci tradotte due volte già salvate non vengono più servite, v1.21.1
+- fix(tw-translate-plus): segnaposto protetti e riparati, niente più testi tradotti due volte, v1.21.0
+- fix(tw-translate-plus): l'import WPML abbina i paragrafi con numero di righe diverso e scarta le traduzioni solo numeriche, v1.20.6
+- fix(tw-translate-plus): la migrazione WPML importa i testi SEO personalizzati (SEOPress, Yoast, Rank Math), v1.20.5
+- chore(tw-translate-plus): header Version 1.20.4
+- fix(tw-translate-plus): script inline con < e > non nascondono più il resto della pagina alla traduzione, v1.20.4
+- feat(tw-translate-plus): slovacco, import WPML corretto per termini, slug non latini e redirect, v1.20.3
+- fix(tw-translate-plus): WPML import strings step crashed on undefined $copies, v1.20.2
+- fix(tw-translate-plus): coverage check button; rich update details v1.20.1
+- feat(tw-translate-plus): translate script data and check real page coverage v1.20.0
+- fix(tw-translate-plus): do not requeue rendered translations; hide WPML tab after migration v1.19.5
+- fix(tw-translate-plus): short description whitespace, WPML variation descriptions v1.19.4
+- fix(tw-translate-plus): never redirect LiteSpeed ESI sub-requests v1.19.3
