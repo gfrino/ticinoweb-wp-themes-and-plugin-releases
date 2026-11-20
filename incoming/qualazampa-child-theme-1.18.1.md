@@ -1,0 +1,1 @@
+- Editor Chi siamo concentrato sui contenuti utili: rimossi i pannelli tecnici non usati dalla pagina, senza cancellare alcun dato.
