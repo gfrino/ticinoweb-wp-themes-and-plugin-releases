@@ -1,0 +1,1 @@
+- Copertina del tema aggiornata con il logo vettoriale originale fornito dal cliente. Logo e favicon del sito restano gestiti dai campi nativi del CMS; anche il logo delle email ordine segue il campo comune.
