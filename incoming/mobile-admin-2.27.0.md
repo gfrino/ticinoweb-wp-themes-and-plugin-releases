@@ -1,0 +1,7 @@
+### Added
+- **Gestione App → Driver: consegne con i propri fattorini.** L'amministratore promuove un utente a Driver; il Driver vede gli ordini a domicilio sul sito e nell'app, li accetta (uno solo per ordine, anche se due Driver toccano insieme), apre Google Maps o Apple Maps, segna «Consegnato» e vede quanto incassare. Il cliente riceve le notifiche (preso in carico, in consegna, sta arrivando, arrivato, consegnato), segue l'auto sulla mappa nell'app o sul sito e, su iPhone, la Live Activity sulla schermata di blocco.
+- **Spento di default su ogni sito**: con questo aggiornamento non cambia nulla finché qualcuno non lo accende in Gestione App → Driver. Da spento non crea tabelle, ruoli, pagine né API e non tocca gli ordini. Si accende e si spegne per sito; spegnendolo Driver e storico restano.
+- Serve l'app con l'area Driver e le Cloud Functions del tracking dell'app; in Driver → Impostazioni vanno l'indirizzo delle Cloud Functions, la chiave condivisa e (per la mappa sul sito) la configurazione web di Firebase.
+- API REST `app-driver/v1`: per il sito con cookie, per l'app con il token dell'app, verificato con gli stessi controlli di «Accesso app» (firma, scadenza, token revocato al logout). Il token vale solo per queste API: le altre API REST restano come prima.
+- Era il plugin separato «Little Inka Driver» (0.2.1, mai pubblicato sui siti): ora fa parte di Mobile Admin per poterlo usare con le app degli altri clienti.
+
