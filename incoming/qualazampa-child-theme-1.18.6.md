@@ -1,0 +1,1 @@
+- Bordo visibile del logo allineato al menu, compensando il margine trasparente dell’SVG senza ridimensionarlo o spostare gli altri elementi.
