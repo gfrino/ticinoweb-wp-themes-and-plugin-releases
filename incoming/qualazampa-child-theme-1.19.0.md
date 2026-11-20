@@ -1,0 +1,2 @@
+- Ricerca compatta con lente e Cerca: apertura nel campo esistente, focus immediato, chiusura con X/Esc/esterno e invio nativo WooCommerce.
+- Gradiente dell’header in un tono uniforme con dissolvenza continua, senza cambio di tinta o brusco tratto finale.
