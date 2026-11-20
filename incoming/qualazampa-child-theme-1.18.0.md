@@ -1,0 +1,2 @@
+- Gestione Chi siamo semplificata: editor della storia e pannelli distinti per team, tessera e galleria, fotografia iniziale e collegamenti diretti al CMS. Anteprima dei vantaggi aggiornata durante la modifica.
+- Gradiente dell’header più leggero e progressivo sul video, conservando testi chiari e ritorno all’aspetto ordinario dopo la prima scena.
