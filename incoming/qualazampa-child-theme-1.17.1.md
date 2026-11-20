@@ -1,0 +1,1 @@
+- Ritorno alla home dalla scheda evento compatibile con la presentazione immersiva iniziale.
