@@ -1,0 +1,1 @@
+- Logo trasparente dal CMS, bianco sopra il video e nei colori originali quando l’header torna chiaro. Nessuna seconda impostazione del logo.
