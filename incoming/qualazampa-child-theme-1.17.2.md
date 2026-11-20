@@ -1,0 +1,1 @@
+- Header con gradiente scuro e testi chiari sulla prima scena dell’hero; ritorno alla superficie chiara nella scena shop e dopo l’hero. Ricerca, menu e indicatori leggibili anche su telefono.
