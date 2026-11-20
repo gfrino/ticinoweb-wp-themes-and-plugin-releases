@@ -1,0 +1,1 @@
+- Backend Chi siamo ridotto ai soli pannelli di contenuto e pubblicazione: rimossi Revisioni e i pannelli tecnici sottostanti, conservando tutti i dati.
