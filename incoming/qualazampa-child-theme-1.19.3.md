@@ -1,0 +1,1 @@
+- Rimossa la curva interna all’apertura della ricerca: indicazione attiva uniforme sul solo bordo esterno, con cursore e tastiera invariati.
