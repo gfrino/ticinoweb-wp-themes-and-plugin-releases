@@ -1,0 +1,2 @@
+- Menu principale accanto al logo sulla stessa riga desktop; navigazione a scomparsa sui tablet per conservare spazio e leggibilità.
+- Rimossa dall’header la scritta della località. Logo, menu e dati del CMS restano dinamici.
