@@ -1,0 +1,3 @@
+- Eventi nel CMS con editor essenziale: titolo, descrizione, foto, date, orari e informazioni facoltative. Recupero dei record storici senza riattivare Modern Events Calendar.
+- Appuntamenti pubblicati futuri o in corso dopo le notizie in home; nessuna sezione o spazio residuo quando non ci sono eventi. Date e fine visibilità automatiche nel fuso del sito.
+- Scheda evento dedicata, impaginazione per telefono, dati nativi conservati e nessun sistema di prenotazione o pagamento aggiunto.
