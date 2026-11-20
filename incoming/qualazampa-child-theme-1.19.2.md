@@ -1,0 +1,1 @@
+- Cerca leggermente più vicino ad Account nel desktop; geometria del logo, carrello e ricerca mobile conservata.
