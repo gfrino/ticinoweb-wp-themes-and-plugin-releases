@@ -1,0 +1,10 @@
+- fix(morabitotraslochi): evento quote_form_success solo a richiesta registrata, redirect dopo l'invio, anti-doppio invio (1.0.31)
+- feat(morabitotraslochi): landing senza modulo, pulsanti verso Richiedi il tuo preventivo (1.0.30)
+- fix(morabitotraslochi): griglia servizi della landing a 3 colonne, foto allineata (1.0.29)
+- feat(morabitotraslochi): copertina del tema
+- style(morabitotraslochi): vantaggi della landing con filetto in alto invece del bordo laterale
+- feat(morabitotraslochi): landing Traslochi Bellinzona per Google Ads (1.0.28)
+- docs(sync): add rsync exclusions for dev folders and non-runtime files
+- feat: add automated privacy policy page creation and custom template
+- feat: update company name to Ticino Transporter and add primary color fallback to SVG styling
+- feat: scaffold Morabito Traslochi child theme including header, custom JS sliders, and database migration scripts
