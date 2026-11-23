@@ -1,0 +1,2 @@
+- Tutti i testi fissi si cambiano dal CMS: nuova sezione Personalizza → Fashion Shoes → «Testi di pulsanti ed etichette» con 18 campi (pulsanti «Chiama», «Come arrivare», «Segui @…»; titolo «Dove siamo»; stato aperto/chiuso/riapre; campi, consenso e pulsante del modulo; titoli e voci del piè di pagina). Un campo vuoto usa il testo di prima, quindi il sito non cambia finché non si scrive qualcosa. I testi passano da tW Translate come gli altri.
+
