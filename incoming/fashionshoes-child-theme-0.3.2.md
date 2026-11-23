@@ -1,0 +1,2 @@
+- Instagram in diretta: la sezione incorpora il profilo pubblico (`instagram.com/<profilo>/embed/`, il nome viene da CMS → Contatti) e mostra da sola gli ultimi post, senza collegare nessun account e senza caricare foto a mano (come sul sito di Ambrosini). In Personalizza → Instagram la casella «Mostra gli ultimi post in diretta» è accesa di default; spenta, torna la galleria di foto. Instagram vede la visita appena la sezione si carica: va citato nell'informativa sulla privacy.
+
