@@ -1,7 +1,9 @@
 # Crea la release di un tema o plugin quando viene pushato un tag
 # `<slug>-v<versione>` che punta a un commit contenente
 # `incoming/<slug>-<versione>.zip` (e, opzionale, `incoming/<slug>-<versione>.md`
-# con il changelog). Usa il token interno di GitHub Actions: chi pubblica
+# con il changelog). Plugin a pagamento: solo il .md, perche' lo zip sta in Odoo
+# (GestaClient su ticinoweb.online) e arriva ai siti solo con una licenza valida:
+# la release nasce senza allegato e serve per le note di versione. Usa il token interno di GitHub Actions: chi pubblica
 # ha bisogno solo dell'accesso git (SSH) al repo, non di un token personale.
 #
 # Se la release esiste gia' (creata a mano o via API, che crea anche il tag)
@@ -44,7 +46,13 @@ jobs:
             exit 0
           fi
           if [ ! -f "$ZIP" ]; then
-            echo "Nessun $ZIP nel commit del tag: niente da fare."
+            # Plugin a pagamento: lo zip sta in Odoo (GestaClient), qui solo le note di versione.
+            if [ -f "$NOTES" ]; then
+              gh release create "$TAG" --title "$TAG" --notes-file "$NOTES" --verify-tag
+              echo "Release $TAG senza zip (plugin a pagamento: lo zip e' in Odoo)."
+            else
+              echo "Nessun $ZIP nel commit del tag: niente da fare."
+            fi
             exit 0
           fi
           if ! echo "$VER" | grep -Eq '^[0-9]+(\.[0-9]+){1,3}$'; then
