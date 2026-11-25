@@ -1,0 +1,12 @@
+- chore(tw-datatrans): aggiornamenti da Odoo (tw-license 1.1.0, aggiornatore 1.4.0) v1.2.1
+- feat(tw-datatrans): licenza del plugin venduto (Impostazioni → Licenze ticinoWEB), aggiornatore 1.3.0 v1.2.0
+- feat(tw-datatrans): logo Datatrans nell'intestazione, icone quadrate nella lista Pagamenti, icone versionate v1.1.8
+- fix(tw-datatrans): logo, titolo e versione impilati e allineati a sinistra v1.1.7
+- feat(tw-datatrans): logo ticinoWEB e versione nella pagina impostazioni v1.1.6
+- fix(tw-datatrans): marchi Apple Pay e Google Pay centrati v1.1.5
+- feat(tw-datatrans): più padding nei loghi del checkout v1.1.4
+- feat(tw-datatrans): loghi del checkout ridisegnati e uniformi v1.1.3
+- feat(tw-datatrans): importo del rimborso precompilato e limitato al rimborsabile v1.1.2
+- feat(tw-datatrans): pagina impostazioni ridisegnata a schede con interruttori dei metodi v1.1.1
+- feat(mobile-admin, tw-datatrans): gestione centrale dei pagamenti web per sede (mobile-admin 2.12.0, tw-datatrans 1.1.0)
+- feat(tw-datatrans): nuovo plugin Datatrans by ticinoWEB v1.0.0
