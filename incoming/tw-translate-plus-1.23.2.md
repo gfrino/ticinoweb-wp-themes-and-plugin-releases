@@ -1,0 +1,15 @@
+- fix(tw-translate-plus): primo controllo della licenza subito (tw-license 1.1.1) v1.23.2
+- chore(tw-translate-plus): aggiornamenti da Odoo (tw-license 1.1.0, aggiornatore 1.4.0) v1.23.1
+- feat(tw-translate-plus): licenza del plugin venduto (Impostazioni → Licenze ticinoWEB), aggiornatore 1.3.0 v1.23.0
+- fix(tw-translate-plus): sitemap tradotte senza le pagine noindex v1.22.4
+- fix(tw-translate-plus): pulsante della verifica copertura «Va bene così» v1.22.3
+- fix(tw-translate-plus): mini-carrello per lingua, frasi WPML mai tradotte, pulsante «Non va tradotto» v1.22.2
+- fix(tw-translate-plus): slugs-check conta solo i contenuti con indirizzo proprio v1.22.1
+- fix(tw-translate-plus): slug tradotti univoci per lingua e redirect delle categorie v1.22.0
+- fix(tw-translate-plus): titoli SEOPress e nome del sito tradotti nelle lingue aggiuntive v1.21.3
+- fix(tw-translate-plus): niente 500 sulle lingue aggiuntive nei WordPress non multisite v1.21.2
+- fix(tw-translate-plus): le voci tradotte due volte già salvate non vengono più servite, v1.21.1
+- fix(tw-translate-plus): segnaposto protetti e riparati, niente più testi tradotti due volte, v1.21.0
+- fix(tw-translate-plus): l'import WPML abbina i paragrafi con numero di righe diverso e scarta le traduzioni solo numeriche, v1.20.6
+- fix(tw-translate-plus): la migrazione WPML importa i testi SEO personalizzati (SEOPress, Yoast, Rank Math), v1.20.5
+- chore(tw-translate-plus): header Version 1.20.4
