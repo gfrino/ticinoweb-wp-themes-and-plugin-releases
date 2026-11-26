@@ -1,0 +1,15 @@
+- fix(wp-news): primo controllo della licenza subito (tw-license 1.1.1) v1.26.2
+- chore(wp-news): aggiornamenti da Odoo (tw-license 1.1.0, aggiornatore 1.4.0) v1.26.1
+- feat(wp-news): licenza del plugin venduto (Impostazioni → Licenze ticinoWEB), aggiornatore 1.3.0 v1.26.0
+- fix(wp-news): una campagna con indirizzi non validi non resta piu in invio all'infinito v1.25.5
+- feat(admin): show Import from MailPoet only when MailPoet data exists, v1.25.4
+- fix(builder): Remove button in selected posts picker, translations, v1.25.3
+- fix(builder): latest posts source switch fits the sidebar, v1.25.2
+- fix(wp-news): bundle release updater 1.2.0 so the details card (description, FAQ, banner) is shown, v1.25.1
+- feat(blocks): latest posts block can send hand-picked articles for the next send, then reverts to latest, v1.25.0
+- docs(wp-news): release details updated for 1.23/1.24 features
+- feat(campaigns): edit scheduled campaigns before the next send, v1.24.0
+- feat(campaigns): explain skipped scheduled sends, Send now, clearer no-new-posts choice, keep send time, v1.23.0
+- feat(campaigns): import campaigns from MailPoet as history and drafts, v1.22.0
+- feat(builder): text block font size, v1.21.0
+- fix(builder): inspector fields overflow, recent color swatches, v1.20.1
